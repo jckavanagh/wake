@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/node_modules
+backend/venv
+
+data/
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Virtual environments
+venv/
+env/
+
+# Django settings
+backend/backend/settings.py
+backend/backend/urls.py
+backend/backend/asgi.py
+backend/backend/wsgi.py
+
+
+# Static and Media files
+backend/staticfiles/
+backend/media/
+
+# Logs and cache
+*.log
+__pycache__/
+
+# Temporary files
+*.swp
+*.swo
+
+# Editor specific
+.vscode/
+.idea/
+
+# Ignore local history of files
+.history/
